@@ -40,7 +40,7 @@ const Part = (props) => {
 
 const App = () => {
   const course = {
-    coursename: 'Half Stack application development',
+    name: 'Half Stack application development',
     parts: [
       {
         name: 'Fundamentals of React',
