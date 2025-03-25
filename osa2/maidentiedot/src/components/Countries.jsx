@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Weather from './Weather';
 
 const SingleCountry = ({ country }) => {
     return (
@@ -13,6 +14,7 @@ const SingleCountry = ({ country }) => {
                 ))}
             </ul>
             <img src={country.flags.png} alt={country.flags.alt}></img>
+            <Weather country={country} />
         </div>
     );
 };
